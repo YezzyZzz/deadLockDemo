@@ -41,7 +41,7 @@ public class GeneralServiceImpl implements GeneralService {
             }
         }
     }
-
+    //deaLock test
     public Result<Boolean> deadLockTest(Integer uid1,Integer uid2){
         Result<Boolean> result = new Result<>();
         try {
